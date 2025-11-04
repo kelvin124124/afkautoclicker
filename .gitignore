@@ -19,8 +19,3 @@ classes/
 
 # VSCode
 .vscode/
-
-# Minecraft
-run/
-logs/
-*/
