@@ -6,10 +6,10 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod("afkautoclicker")
-public class afkautoclickerMod {
+public class AFKAutoClickerMod {
     public static final String MOD_ID = "afkautoclicker";
     
-    public afkautoclickerMod() {
+    public AFKAutoClickerMod() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientSetup);
     }
     
