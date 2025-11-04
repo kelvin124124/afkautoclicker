@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="afkautoclicker"
+version="1.0.0"
+displayName="AFK Auto-Clicker"
+description='''
+Simple AFK mode with auto-clicking and camera lock.
+Press G to toggle AFK mode.
+'''
+authors="kelvin124124"
+
+[[dependencies.afkautoclick]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.afkautoclick]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="CLIENT"
